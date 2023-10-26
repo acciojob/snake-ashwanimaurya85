@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+
+/* Define styles for the game container and pixels */
+.game-container {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  grid-template-rows: repeat(40, 1fr);
+}
+
+.snakeBodyPixel {
+  background-color: #333;
+}
+
+.food {
+  background-color: red;
+}
+
+/* Define styles for the scoreboard */
+.scoreBoard {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
